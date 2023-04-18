@@ -1,0 +1,11 @@
+/home/thiago/workspaces/ros2_py_ws/build/robo_clase22/CMakeFiles/uninstall.dir
+/home/thiago/workspaces/ros2_py_ws/build/robo_clase22/CMakeFiles/robo_clase22_uninstall.dir
+/home/thiago/workspaces/ros2_py_ws/build/robo_clase22/CMakeFiles/ament_cmake_python_symlink_scripts.dir
+/home/thiago/workspaces/ros2_py_ws/build/robo_clase22/CMakeFiles/ament_cmake_python_build_scripts_egg.dir
+/home/thiago/workspaces/ros2_py_ws/build/robo_clase22/CMakeFiles/test.dir
+/home/thiago/workspaces/ros2_py_ws/build/robo_clase22/CMakeFiles/edit_cache.dir
+/home/thiago/workspaces/ros2_py_ws/build/robo_clase22/CMakeFiles/rebuild_cache.dir
+/home/thiago/workspaces/ros2_py_ws/build/robo_clase22/CMakeFiles/list_install_components.dir
+/home/thiago/workspaces/ros2_py_ws/build/robo_clase22/CMakeFiles/install.dir
+/home/thiago/workspaces/ros2_py_ws/build/robo_clase22/CMakeFiles/install/local.dir
+/home/thiago/workspaces/ros2_py_ws/build/robo_clase22/CMakeFiles/install/strip.dir
