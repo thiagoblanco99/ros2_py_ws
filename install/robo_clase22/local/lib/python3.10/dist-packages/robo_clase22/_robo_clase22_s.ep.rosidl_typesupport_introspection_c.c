@@ -1,0 +1,1 @@
+/home/thiago/workspaces/ros2_py_ws/build/robo_clase22/rosidl_generator_py/robo_clase22/_robo_clase22_s.ep.rosidl_typesupport_introspection_c.c

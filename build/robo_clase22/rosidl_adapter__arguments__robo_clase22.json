@@ -1,0 +1,7 @@
+{
+  "package_name": "robo_clase22",
+  "non_idl_tuples": [
+    "/home/thiago/workspaces/ros2_py_ws/src/robo_clase22:srv/OddEvenCheck.srv",
+    "/home/thiago/workspaces/ros2_py_ws/src/robo_clase22:action/Navigate.action"
+  ]
+}

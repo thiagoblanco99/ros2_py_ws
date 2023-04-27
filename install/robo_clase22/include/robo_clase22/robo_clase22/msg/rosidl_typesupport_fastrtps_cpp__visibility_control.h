@@ -1,0 +1,1 @@
+/home/thiago/workspaces/ros2_py_ws/build/robo_clase22/rosidl_typesupport_fastrtps_cpp/robo_clase22/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h

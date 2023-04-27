@@ -2,6 +2,8 @@ setup.py
 scripts/RPM.py
 scripts/VEL.py
 scripts/__init__.py
+scripts/service_client.py
+scripts/service_server.py
 scripts.egg-info/PKG-INFO
 scripts.egg-info/SOURCES.txt
 scripts.egg-info/dependency_links.txt

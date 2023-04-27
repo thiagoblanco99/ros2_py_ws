@@ -1,0 +1,224 @@
+[0.016s] Invoking command in '/home/thiago/workspaces/ros2_py_ws/build/robo_clase22': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thiago/workspaces/ros2_py_ws/build/robo_clase22 -- -j12 -l12
+[0.044s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.173s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.179s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.210s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.213s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.220s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.232s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.244s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.413s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.678s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.028s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.166s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.181s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.195s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.195s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.195s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.244s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.252s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.252s] -- Added test 'lint_cmake' to check CMake code style
+[1.252s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.253s] -- Added test 'xmllint' to check XML markup files
+[1.255s] -- Configuring done
+[1.282s] -- Generating done
+[1.284s] -- Build files have been written to: /home/thiago/workspaces/ros2_py_ws/build/robo_clase22
+[1.303s] [35m[1mConsolidate compiler generated dependencies of target robo_clase22__rosidl_generator_c[0m
+[1.310s] [  6%] Built target robo_clase22__cpp
+[1.310s] [  6%] [32m[1mLinking C shared library librobo_clase22__rosidl_generator_c.so[0m
+[1.318s] [  6%] Built target ament_cmake_python_symlink_scripts
+[1.319s] [  6%] Built target ament_cmake_python_symlink_robo_clase22
+[1.324s] [35m[1mConsolidate compiler generated dependencies of target robo_clase22__rosidl_typesupport_cpp[0m
+[1.325s] [35m[1mConsolidate compiler generated dependencies of target robo_clase22__rosidl_typesupport_introspection_cpp[0m
+[1.325s] [35m[1mConsolidate compiler generated dependencies of target robo_clase22__rosidl_typesupport_fastrtps_cpp[0m
+[1.345s] [  9%] [32m[1mLinking CXX shared library librobo_clase22__rosidl_typesupport_introspection_cpp.so[0m
+[1.347s] [ 12%] [32m[1mLinking CXX shared library librobo_clase22__rosidl_typesupport_cpp.so[0m
+[1.347s] [ 16%] [32m[1mLinking CXX shared library librobo_clase22__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.352s] [ 22%] Built target robo_clase22__rosidl_generator_c
+[1.361s] [35m[1mConsolidate compiler generated dependencies of target robo_clase22__rosidl_typesupport_c[0m
+[1.361s] [35m[1mConsolidate compiler generated dependencies of target robo_clase22__rosidl_typesupport_introspection_c[0m
+[1.361s] [35m[1mConsolidate compiler generated dependencies of target robo_clase22__rosidl_typesupport_fastrtps_c[0m
+[1.373s] [ 29%] [32mBuilding C object CMakeFiles/robo_clase22__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robo_clase22/srv/detail/odd_even_check__type_support.c.o[0m
+[1.374s] [ 29%] [32mBuilding CXX object CMakeFiles/robo_clase22__rosidl_typesupport_c.dir/rosidl_typesupport_c/robo_clase22/srv/odd_even_check__type_support.cpp.o[0m
+[1.376s] [ 32%] [32mBuilding CXX object CMakeFiles/robo_clase22__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robo_clase22/srv/detail/odd_even_check__type_support_c.cpp.o[0m
+[1.391s] [ 38%] Built target robo_clase22__rosidl_typesupport_cpp
+[1.407s] [ 41%] [32m[1mLinking CXX shared library librobo_clase22__rosidl_typesupport_c.so[0m
+[1.407s] [ 45%] [32m[1mLinking C shared library librobo_clase22__rosidl_typesupport_introspection_c.so[0m
+[1.421s] [ 51%] Built target robo_clase22__rosidl_typesupport_introspection_cpp
+[1.449s] [ 54%] Built target robo_clase22__rosidl_typesupport_introspection_c
+[1.449s] [ 58%] Built target robo_clase22__rosidl_typesupport_c
+[1.454s] [ 64%] Built target robo_clase22__rosidl_typesupport_fastrtps_cpp
+[1.562s] running egg_info
+[1.562s] running egg_info
+[1.562s] writing scripts.egg-info/PKG-INFO
+[1.562s] writing dependency_links to scripts.egg-info/dependency_links.txt
+[1.563s] writing top-level names to scripts.egg-info/top_level.txt
+[1.563s] writing robo_clase22.egg-info/PKG-INFO
+[1.563s] writing dependency_links to robo_clase22.egg-info/dependency_links.txt
+[1.563s] writing top-level names to robo_clase22.egg-info/top_level.txt
+[1.564s] reading manifest file 'scripts.egg-info/SOURCES.txt'
+[1.564s] reading manifest file 'robo_clase22.egg-info/SOURCES.txt'
+[1.564s] writing manifest file 'scripts.egg-info/SOURCES.txt'
+[1.565s] writing manifest file 'robo_clase22.egg-info/SOURCES.txt'
+[1.588s] [ 64%] Built target ament_cmake_python_build_scripts_egg
+[1.589s] [ 64%] Built target ament_cmake_python_build_robo_clase22_egg
+[1.678s] [ 67%] [32m[1mLinking CXX shared library librobo_clase22__rosidl_typesupport_fastrtps_c.so[0m
+[1.732s] [ 70%] Built target robo_clase22__rosidl_typesupport_fastrtps_c
+[1.746s] [ 70%] Built target robo_clase22
+[1.758s] [ 74%] Built target robo_clase22__py
+[1.764s] [35m[1mConsolidate compiler generated dependencies of target robo_clase22__rosidl_generator_py[0m
+[1.773s] [ 77%] [32mBuilding C object CMakeFiles/robo_clase22__rosidl_generator_py.dir/rosidl_generator_py/robo_clase22/srv/_odd_even_check_s.c.o[0m
+[1.868s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/robo_clase22/librobo_clase22__rosidl_generator_py.so[0m
+[1.895s] [ 80%] Built target robo_clase22__rosidl_generator_py
+[1.901s] [35m[1mConsolidate compiler generated dependencies of target robo_clase22__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.901s] [35m[1mConsolidate compiler generated dependencies of target robo_clase22__rosidl_typesupport_c__pyext[0m
+[1.902s] [35m[1mConsolidate compiler generated dependencies of target robo_clase22__rosidl_typesupport_introspection_c__pyext[0m
+[1.910s] [ 87%] [32mBuilding C object CMakeFiles/robo_clase22__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/robo_clase22/_robo_clase22_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[1.910s] [ 87%] [32mBuilding C object CMakeFiles/robo_clase22__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/robo_clase22/_robo_clase22_s.ep.rosidl_typesupport_c.c.o[0m
+[1.911s] [ 90%] [32mBuilding C object CMakeFiles/robo_clase22__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/robo_clase22/_robo_clase22_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[1.987s] [100%] [32m[1mLinking C shared library rosidl_generator_py/robo_clase22/robo_clase22_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.987s] [100%] [32m[1mLinking C shared library rosidl_generator_py/robo_clase22/robo_clase22_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.987s] [100%] [32m[1mLinking C shared library rosidl_generator_py/robo_clase22/robo_clase22_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.015s] [100%] Built target robo_clase22__rosidl_typesupport_fastrtps_c__pyext
+[2.015s] [100%] Built target robo_clase22__rosidl_typesupport_c__pyext
+[2.015s] [100%] Built target robo_clase22__rosidl_typesupport_introspection_c__pyext
+[2.024s] Invoked command in '/home/thiago/workspaces/ros2_py_ws/build/robo_clase22' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thiago/workspaces/ros2_py_ws/build/robo_clase22 -- -j12 -l12
+[2.057s] Invoking command in '/home/thiago/workspaces/ros2_py_ws/build/robo_clase22': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/thiago/workspaces/ros2_py_ws/build/robo_clase22
+[2.062s] -- Install configuration: ""
+[2.062s] -- Execute custom install script
+[2.062s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/ament_index/resource_index/rosidl_interfaces/robo_clase22
+[2.063s] -- Symlinking: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/include/robo_clase22/robo_clase22/action/detail/navigate__functions.h
+[2.067s] -- Symlinking: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/include/robo_clase22/robo_clase22/action/detail/navigate__struct.h
+[2.072s] -- Symlinking: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/include/robo_clase22/robo_clase22/action/detail/navigate__type_support.h
+[2.076s] -- Symlinking: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/include/robo_clase22/robo_clase22/action/navigate.h
+[2.081s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/include/robo_clase22/robo_clase22/msg/rosidl_generator_c__visibility_control.h
+[2.081s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/include/robo_clase22/robo_clase22/srv/detail/odd_even_check__functions.h
+[2.081s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/include/robo_clase22/robo_clase22/srv/detail/odd_even_check__struct.h
+[2.081s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/include/robo_clase22/robo_clase22/srv/detail/odd_even_check__type_support.h
+[2.081s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/include/robo_clase22/robo_clase22/srv/odd_even_check.h
+[2.081s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/environment/library_path.sh
+[2.081s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/environment/library_path.dsv
+[2.082s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/include/robo_clase22/robo_clase22/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.082s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/include/robo_clase22/robo_clase22/srv/detail/odd_even_check__rosidl_typesupport_fastrtps_c.h
+[2.082s] -- Symlinking: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/include/robo_clase22/robo_clase22/action/detail/navigate__builder.hpp
+[2.086s] -- Symlinking: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/include/robo_clase22/robo_clase22/action/detail/navigate__struct.hpp
+[2.091s] -- Symlinking: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/include/robo_clase22/robo_clase22/action/detail/navigate__traits.hpp
+[2.095s] -- Symlinking: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/include/robo_clase22/robo_clase22/action/navigate.hpp
+[2.099s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/include/robo_clase22/robo_clase22/srv/detail/odd_even_check__builder.hpp
+[2.099s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/include/robo_clase22/robo_clase22/srv/detail/odd_even_check__struct.hpp
+[2.100s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/include/robo_clase22/robo_clase22/srv/detail/odd_even_check__traits.hpp
+[2.100s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/include/robo_clase22/robo_clase22/srv/odd_even_check.hpp
+[2.100s] -- Symlinking: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/include/robo_clase22/robo_clase22/action/detail/navigate__rosidl_typesupport_fastrtps_cpp.hpp
+[2.105s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/include/robo_clase22/robo_clase22/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.105s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/include/robo_clase22/robo_clase22/srv/detail/odd_even_check__rosidl_typesupport_fastrtps_cpp.hpp
+[2.105s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/include/robo_clase22/robo_clase22/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.105s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/include/robo_clase22/robo_clase22/srv/detail/odd_even_check__rosidl_typesupport_introspection_c.h
+[2.105s] -- Symlinking: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/include/robo_clase22/robo_clase22/action/detail/navigate__rosidl_typesupport_introspection_cpp.hpp
+[2.111s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/include/robo_clase22/robo_clase22/srv/detail/odd_even_check__rosidl_typesupport_introspection_cpp.hpp
+[2.111s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/environment/pythonpath.sh
+[2.111s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/environment/pythonpath.dsv
+[2.112s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/local/lib/python3.10/dist-packages/robo_clase22-0.0.0-py3.10.egg-info/PKG-INFO
+[2.112s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/local/lib/python3.10/dist-packages/robo_clase22-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.112s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/local/lib/python3.10/dist-packages/robo_clase22-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.112s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/local/lib/python3.10/dist-packages/robo_clase22-0.0.0-py3.10.egg-info/top_level.txt
+[2.113s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/local/lib/python3.10/dist-packages/robo_clase22/__init__.py
+[2.114s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/local/lib/python3.10/dist-packages/robo_clase22/_robo_clase22_s.ep.rosidl_typesupport_c.c
+[2.114s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/local/lib/python3.10/dist-packages/robo_clase22/_robo_clase22_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.114s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/local/lib/python3.10/dist-packages/robo_clase22/_robo_clase22_s.ep.rosidl_typesupport_introspection_c.c
+[2.114s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/local/lib/python3.10/dist-packages/robo_clase22/librobo_clase22__rosidl_generator_py.so
+[2.114s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/local/lib/python3.10/dist-packages/robo_clase22/robo_clase22_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.114s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/local/lib/python3.10/dist-packages/robo_clase22/robo_clase22_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.114s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/local/lib/python3.10/dist-packages/robo_clase22/robo_clase22_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.114s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/local/lib/python3.10/dist-packages/robo_clase22/srv/__init__.py
+[2.114s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/local/lib/python3.10/dist-packages/robo_clase22/srv/_odd_even_check.py
+[2.114s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/local/lib/python3.10/dist-packages/robo_clase22/srv/_odd_even_check_s.c
+[2.114s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/local/lib/python3.10/dist-packages/robo_clase22/robo_clase22_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.115s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/local/lib/python3.10/dist-packages/robo_clase22/robo_clase22_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.115s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/local/lib/python3.10/dist-packages/robo_clase22/robo_clase22_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.115s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/srv/OddEvenCheck.idl
+[2.115s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/srv/OddEvenCheck.srv
+[2.115s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/srv/OddEvenCheck_Request.msg
+[2.115s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/srv/OddEvenCheck_Response.msg
+[2.116s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/PKG-INFO
+[2.116s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.116s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.116s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/top_level.txt
+[2.117s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/local/lib/python3.10/dist-packages/scripts/RPM.py
+[2.117s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/local/lib/python3.10/dist-packages/scripts/VEL.py
+[2.117s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/local/lib/python3.10/dist-packages/scripts/__init__.py
+[2.117s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/local/lib/python3.10/dist-packages/scripts/service_client.py
+[2.117s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/local/lib/python3.10/dist-packages/scripts/service_server.py
+[2.117s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/lib/robo_clase22/RPM.py
+[2.117s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/lib/robo_clase22/VEL.py
+[2.117s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/lib/robo_clase22/service_server.py
+[2.117s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/lib/robo_clase22/service_client.py
+[2.117s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22//launch/rpm_node_launch.py
+[2.118s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/ament_index/resource_index/package_run_dependencies/robo_clase22
+[2.118s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/ament_index/resource_index/parent_prefix_path/robo_clase22
+[2.118s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/environment/ament_prefix_path.sh
+[2.118s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/environment/ament_prefix_path.dsv
+[2.118s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/environment/path.sh
+[2.118s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/environment/path.dsv
+[2.118s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/local_setup.bash
+[2.119s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/local_setup.sh
+[2.119s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/local_setup.zsh
+[2.119s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/local_setup.dsv
+[2.119s] -- Symlinking: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/package.dsv
+[2.126s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/ament_index/resource_index/packages/robo_clase22
+[2.127s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/cmake/rosidl_cmake-extras.cmake
+[2.127s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.127s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.127s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/cmake/ament_cmake_export_libraries-extras.cmake
+[2.127s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/cmake/ament_cmake_export_targets-extras.cmake
+[2.127s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.127s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.128s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/cmake/robo_clase22Config.cmake
+[2.128s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/cmake/robo_clase22Config-version.cmake
+[2.128s] -- Up-to-date symlink: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/package.xml
+[2.138s] -- Installing: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/lib/librobo_clase22__rosidl_generator_c.so
+[2.138s] -- Set runtime path of "/home/thiago/workspaces/ros2_py_ws/install/robo_clase22/lib/librobo_clase22__rosidl_generator_c.so" to ""
+[2.139s] -- Installing: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/lib/librobo_clase22__rosidl_typesupport_fastrtps_c.so
+[2.139s] -- Set runtime path of "/home/thiago/workspaces/ros2_py_ws/install/robo_clase22/lib/librobo_clase22__rosidl_typesupport_fastrtps_c.so" to ""
+[2.139s] -- Installing: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/lib/librobo_clase22__rosidl_typesupport_fastrtps_cpp.so
+[2.139s] -- Set runtime path of "/home/thiago/workspaces/ros2_py_ws/install/robo_clase22/lib/librobo_clase22__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.140s] -- Installing: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/lib/librobo_clase22__rosidl_typesupport_introspection_c.so
+[2.140s] -- Set runtime path of "/home/thiago/workspaces/ros2_py_ws/install/robo_clase22/lib/librobo_clase22__rosidl_typesupport_introspection_c.so" to ""
+[2.140s] -- Installing: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/lib/librobo_clase22__rosidl_typesupport_c.so
+[2.141s] -- Set runtime path of "/home/thiago/workspaces/ros2_py_ws/install/robo_clase22/lib/librobo_clase22__rosidl_typesupport_c.so" to ""
+[2.141s] -- Installing: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/lib/librobo_clase22__rosidl_typesupport_introspection_cpp.so
+[2.141s] -- Set runtime path of "/home/thiago/workspaces/ros2_py_ws/install/robo_clase22/lib/librobo_clase22__rosidl_typesupport_introspection_cpp.so" to ""
+[2.141s] -- Installing: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/lib/librobo_clase22__rosidl_typesupport_cpp.so
+[2.142s] -- Set runtime path of "/home/thiago/workspaces/ros2_py_ws/install/robo_clase22/lib/librobo_clase22__rosidl_typesupport_cpp.so" to ""
+[2.163s] Listing '/home/thiago/workspaces/ros2_py_ws/install/robo_clase22/local/lib/python3.10/dist-packages/robo_clase22'...
+[2.163s] Compiling '/home/thiago/workspaces/ros2_py_ws/install/robo_clase22/local/lib/python3.10/dist-packages/robo_clase22/__init__.py'...
+[2.163s] Listing '/home/thiago/workspaces/ros2_py_ws/install/robo_clase22/local/lib/python3.10/dist-packages/robo_clase22/srv'...
+[2.167s] -- Installing: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/lib/librobo_clase22__rosidl_generator_py.so
+[2.167s] -- Set runtime path of "/home/thiago/workspaces/ros2_py_ws/install/robo_clase22/lib/librobo_clase22__rosidl_generator_py.so" to ""
+[2.188s] Listing '/home/thiago/workspaces/ros2_py_ws/install/robo_clase22/local/lib/python3.10/dist-packages/scripts'...
+[2.188s] Compiling '/home/thiago/workspaces/ros2_py_ws/install/robo_clase22/local/lib/python3.10/dist-packages/scripts/service_client.py'...
+[2.191s] -- Old export file "/home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/cmake/export_robo_clase22__rosidl_generator_cExport.cmake" will be replaced.  Removing files [/home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/cmake/export_robo_clase22__rosidl_generator_cExport-noconfig.cmake].
+[2.191s] -- Installing: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/cmake/export_robo_clase22__rosidl_generator_cExport.cmake
+[2.191s] -- Installing: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/cmake/export_robo_clase22__rosidl_generator_cExport-noconfig.cmake
+[2.191s] -- Old export file "/home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/cmake/export_robo_clase22__rosidl_typesupport_fastrtps_cExport.cmake" will be replaced.  Removing files [/home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/cmake/export_robo_clase22__rosidl_typesupport_fastrtps_cExport-noconfig.cmake].
+[2.192s] -- Installing: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/cmake/export_robo_clase22__rosidl_typesupport_fastrtps_cExport.cmake
+[2.192s] -- Installing: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/cmake/export_robo_clase22__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.192s] -- Installing: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/cmake/export_robo_clase22__rosidl_generator_cppExport.cmake
+[2.192s] -- Old export file "/home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/cmake/export_robo_clase22__rosidl_typesupport_fastrtps_cppExport.cmake" will be replaced.  Removing files [/home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/cmake/export_robo_clase22__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake].
+[2.192s] -- Installing: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/cmake/export_robo_clase22__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.192s] -- Installing: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/cmake/export_robo_clase22__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.192s] -- Old export file "/home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/cmake/robo_clase22__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/cmake/robo_clase22__rosidl_typesupport_introspection_cExport-noconfig.cmake].
+[2.192s] -- Installing: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/cmake/robo_clase22__rosidl_typesupport_introspection_cExport.cmake
+[2.192s] -- Installing: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/cmake/robo_clase22__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.192s] -- Old export file "/home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/cmake/robo_clase22__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/cmake/robo_clase22__rosidl_typesupport_cExport-noconfig.cmake].
+[2.193s] -- Installing: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/cmake/robo_clase22__rosidl_typesupport_cExport.cmake
+[2.193s] -- Installing: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/cmake/robo_clase22__rosidl_typesupport_cExport-noconfig.cmake
+[2.193s] -- Old export file "/home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/cmake/robo_clase22__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/cmake/robo_clase22__rosidl_typesupport_introspection_cppExport-noconfig.cmake].
+[2.193s] -- Installing: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/cmake/robo_clase22__rosidl_typesupport_introspection_cppExport.cmake
+[2.193s] -- Installing: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/cmake/robo_clase22__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.193s] -- Old export file "/home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/cmake/robo_clase22__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/cmake/robo_clase22__rosidl_typesupport_cppExport-noconfig.cmake].
+[2.193s] -- Installing: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/cmake/robo_clase22__rosidl_typesupport_cppExport.cmake
+[2.193s] -- Installing: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/cmake/robo_clase22__rosidl_typesupport_cppExport-noconfig.cmake
+[2.193s] -- Old export file "/home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/cmake/export_robo_clase22__rosidl_generator_pyExport.cmake" will be replaced.  Removing files [/home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/cmake/export_robo_clase22__rosidl_generator_pyExport-noconfig.cmake].
+[2.193s] -- Installing: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/cmake/export_robo_clase22__rosidl_generator_pyExport.cmake
+[2.193s] -- Installing: /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22/cmake/export_robo_clase22__rosidl_generator_pyExport-noconfig.cmake
+[2.195s] Invoked command in '/home/thiago/workspaces/ros2_py_ws/build/robo_clase22' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/thiago/workspaces/ros2_py_ws/build/robo_clase22

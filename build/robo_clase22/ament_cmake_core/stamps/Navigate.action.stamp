@@ -1,0 +1,8 @@
+
+geometry_msgs/Point goal_point
+
+---
+float32 elapased_time
+---
+float32 distance_to_point
+

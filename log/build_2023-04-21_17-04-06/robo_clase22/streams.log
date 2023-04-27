@@ -1,0 +1,22 @@
+[0.012s] Invoking command in '/home/thiago/workspaces/ros2_py_ws/build/robo_clase22': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thiago/workspaces/ros2_py_ws/build/robo_clase22 -- -j12 -l12
+[0.033s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.142s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.148s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.174s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.175s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.180s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.188s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.201s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.376s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.382s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[0.382s]   rosidl_generate_interfaces() the passed file 'action/Navigate.action'
+[0.382s]   doesn't exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.382s]   '/home/thiago/workspaces/ros2_py_ws/src/robo_clase22'
+[0.382s] Call Stack (most recent call first):
+[0.383s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[0.383s] 
+[0.383s] [0m
+[0.383s] -- Configuring incomplete, errors occurred!
+[0.383s] See also "/home/thiago/workspaces/ros2_py_ws/build/robo_clase22/CMakeFiles/CMakeOutput.log".
+[0.390s] gmake: *** [Makefile:775: cmake_check_build_system] Error 1
+[0.392s] Invoked command in '/home/thiago/workspaces/ros2_py_ws/build/robo_clase22' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thiago/workspaces/ros2_py_ws/build/robo_clase22 -- -j12 -l12

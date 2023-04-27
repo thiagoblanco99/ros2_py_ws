@@ -1,0 +1,1 @@
+/home/thiago/workspaces/ros2_py_ws/build/robo_clase22/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake
