@@ -1,9 +1,0 @@
-[0.014s] Invoking command in '/home/thiago/workspaces/ros2_py_ws/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thiago/workspaces/ros2_py_ws/build/udemy_ros2_pkg -- -j12 -l12
-[0.063s] Built target ament_cmake_python_symlink_scripts
-[0.263s] running egg_info
-[0.264s] writing scripts.egg-info/PKG-INFO
-[0.264s] writing dependency_links to scripts.egg-info/dependency_links.txt
-[0.264s] writing top-level names to scripts.egg-info/top_level.txt
-[0.266s] reading manifest file 'scripts.egg-info/SOURCES.txt'
-[0.266s] writing manifest file 'scripts.egg-info/SOURCES.txt'
-[0.295s] Built target ament_cmake_python_build_scripts_egg

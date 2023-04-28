@@ -1,0 +1,28 @@
+<sdf version="1.7">
+    <model name="ground_plane">
+        <static>true</static> // Para que no se mueva
+        <link name ="link_ground">
+            <visual name="visual_ground">// Para que se vea
+                <geometry>// Para que tenga forma
+                    <plane>// Para que sea plano
+                        <normal>0 0 1</normal>// indica la normal del plano
+                        <size>25 25</size>// indica el tamaño del plano
+                    </plane>
+                </geometry>
+                <material>// le da los atributos de color
+                    <ambient>1 0 1 1</ambient>// 
+                    <diffuse>1 0 1 1</diffuse>// 
+                    <specular>1 0 1 1</specular>//specular es el brillo
+                </material>
+            </visual>
+            <collision name="collision_ground">// Para que el plano sea solido
+                <geometry>
+                    <plane>
+                        <normal>0 0 1</normal>
+                        <size>25 25</size>
+                    </plane>
+                </geometry>
+            </collision>
+        </link>
+    </model>
+</sdf>

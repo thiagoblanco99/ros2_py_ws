@@ -1,4 +1,0 @@
-Invoking command in '/home/thiago/workspaces/ros2_py_ws/build/robo_clase22': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thiago/workspaces/ros2_py_ws/build/robo_clase22 -- -j12 -l12
-Invoked command in '/home/thiago/workspaces/ros2_py_ws/build/robo_clase22' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thiago/workspaces/ros2_py_ws/build/robo_clase22 -- -j12 -l12
-Invoking command in '/home/thiago/workspaces/ros2_py_ws/build/robo_clase22': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/thiago/workspaces/ros2_py_ws/build/robo_clase22
-Invoked command in '/home/thiago/workspaces/ros2_py_ws/build/robo_clase22' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/thiago/workspaces/ros2_py_ws/build/robo_clase22

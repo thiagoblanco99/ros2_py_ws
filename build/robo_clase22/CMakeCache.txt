@@ -240,9 +240,6 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 //The directory containing a CMake configuration file for OpenCV.
 OpenCV_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/opencv4
 
-//The directory containing a CMake configuration file for Opencv.
-Opencv_DIR:PATH=Opencv_DIR-NOTFOUND
-
 //Path to a program.
 PYTHON_EXECUTABLE:FILEPATH=/usr/bin/python3
 
@@ -381,9 +378,6 @@ geometry_msgs_DIR:PATH=/opt/ros/humble/share/geometry_msgs/cmake
 //The directory containing a CMake configuration file for python_cmake_module.
 python_cmake_module_DIR:PATH=/opt/ros/humble/share/python_cmake_module/cmake
 
-//The directory containing a CMake configuration file for rclpy.
-rclpy_DIR:PATH=/opt/ros/humble/share/rclpy/cmake
-
 //The directory containing a CMake configuration file for rcpputils.
 rcpputils_DIR:PATH=/opt/ros/humble/share/rcpputils/cmake
 
@@ -488,15 +482,6 @@ sensor_msgs_DIR:PATH=/opt/ros/humble/share/sensor_msgs/cmake
 
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/humble/share/std_msgs/cmake
-
-//Value Computed by CMake
-udemy_ros2_pkg_BINARY_DIR:STATIC=/home/thiago/workspaces/ros2_py_ws/build/robo_clase22
-
-//Value Computed by CMake
-udemy_ros2_pkg_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-udemy_ros2_pkg_SOURCE_DIR:STATIC=/home/thiago/workspaces/ros2_py_ws/src/robo_clase22
 
 //The directory containing a CMake configuration file for unique_identifier_msgs.
 unique_identifier_msgs_DIR:PATH=/opt/ros/humble/share/unique_identifier_msgs/cmake

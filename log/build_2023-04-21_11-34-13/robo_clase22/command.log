@@ -1,2 +1,0 @@
-Invoking command in '/home/thiago/workspaces/ros2_py_ws/build/robo_clase22': /usr/bin/cmake /home/thiago/workspaces/ros2_py_ws/src/robo_clase22 -DCMAKE_INSTALL_PREFIX=/home/thiago/workspaces/ros2_py_ws/install/robo_clase22
-Invoked command in '/home/thiago/workspaces/ros2_py_ws/build/robo_clase22' returned '1': /usr/bin/cmake /home/thiago/workspaces/ros2_py_ws/src/robo_clase22 -DCMAKE_INSTALL_PREFIX=/home/thiago/workspaces/ros2_py_ws/install/robo_clase22
