@@ -149,7 +149,7 @@ struct Navigate_Result_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->elapased_time = 0.0f;
+      this->elapsed_time = 0.0f;
     }
   }
 
@@ -159,20 +159,20 @@ struct Navigate_Result_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->elapased_time = 0.0f;
+      this->elapsed_time = 0.0f;
     }
   }
 
   // field types and members
-  using _elapased_time_type =
+  using _elapsed_time_type =
     float;
-  _elapased_time_type elapased_time;
+  _elapsed_time_type elapsed_time;
 
   // setters for named parameter idiom
-  Type & set__elapased_time(
+  Type & set__elapsed_time(
     const float & _arg)
   {
-    this->elapased_time = _arg;
+    this->elapsed_time = _arg;
     return *this;
   }
 
@@ -218,7 +218,7 @@ struct Navigate_Result_
   // comparison operators
   bool operator==(const Navigate_Result_ & other) const
   {
-    if (this->elapased_time != other.elapased_time) {
+    if (this->elapsed_time != other.elapsed_time) {
       return false;
     }
     return true;

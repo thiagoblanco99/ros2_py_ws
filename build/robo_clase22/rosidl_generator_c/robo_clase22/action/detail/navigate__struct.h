@@ -43,7 +43,7 @@ typedef struct robo_clase22__action__Navigate_Goal__Sequence
 /// Struct defined in action/Navigate in the package robo_clase22.
 typedef struct robo_clase22__action__Navigate_Result
 {
-  float elapased_time;
+  float elapsed_time;
 } robo_clase22__action__Navigate_Result;
 
 // Struct for a sequence of robo_clase22__action__Navigate_Result.

@@ -65,10 +65,14 @@
 /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/local/lib/python3.10/dist-packages/scripts/RPM.py
 /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/local/lib/python3.10/dist-packages/scripts/VEL.py
 /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/local/lib/python3.10/dist-packages/scripts/__init__.py
+/home/thiago/workspaces/ros2_py_ws/install/robo_clase22/local/lib/python3.10/dist-packages/scripts/action_client.py
+/home/thiago/workspaces/ros2_py_ws/install/robo_clase22/local/lib/python3.10/dist-packages/scripts/action_server.py
 /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/local/lib/python3.10/dist-packages/scripts/service_client.py
 /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/local/lib/python3.10/dist-packages/scripts/service_server.py
 /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/lib/robo_clase22/RPM.py
 /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/lib/robo_clase22/VEL.py
+/home/thiago/workspaces/ros2_py_ws/install/robo_clase22/lib/robo_clase22/action_server.py
+/home/thiago/workspaces/ros2_py_ws/install/robo_clase22/lib/robo_clase22/action_client.py
 /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/lib/robo_clase22/service_server.py
 /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/lib/robo_clase22/service_client.py
 /home/thiago/workspaces/ros2_py_ws/install/robo_clase22/share/robo_clase22//launch/rpm_node_launch.py

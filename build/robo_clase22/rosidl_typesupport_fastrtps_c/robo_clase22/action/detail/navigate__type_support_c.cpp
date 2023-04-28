@@ -266,9 +266,9 @@ static bool _Navigate_Result__cdr_serialize(
     return false;
   }
   const _Navigate_Result__ros_msg_type * ros_message = static_cast<const _Navigate_Result__ros_msg_type *>(untyped_ros_message);
-  // Field name: elapased_time
+  // Field name: elapsed_time
   {
-    cdr << ros_message->elapased_time;
+    cdr << ros_message->elapsed_time;
   }
 
   return true;
@@ -283,9 +283,9 @@ static bool _Navigate_Result__cdr_deserialize(
     return false;
   }
   _Navigate_Result__ros_msg_type * ros_message = static_cast<_Navigate_Result__ros_msg_type *>(untyped_ros_message);
-  // Field name: elapased_time
+  // Field name: elapsed_time
   {
-    cdr >> ros_message->elapased_time;
+    cdr >> ros_message->elapsed_time;
   }
 
   return true;
@@ -305,9 +305,9 @@ size_t get_serialized_size_robo_clase22__action__Navigate_Result(
   (void)padding;
   (void)wchar_size;
 
-  // field.name elapased_time
+  // field.name elapsed_time
   {
-    size_t item_size = sizeof(ros_message->elapased_time);
+    size_t item_size = sizeof(ros_message->elapsed_time);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -338,7 +338,7 @@ size_t max_serialized_size_robo_clase22__action__Navigate_Result(
   full_bounded = true;
   is_plain = true;
 
-  // member: elapased_time
+  // member: elapsed_time
   {
     size_t array_size = 1;
 

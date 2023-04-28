@@ -257,7 +257,7 @@ robo_clase22__action__Navigate_Result__init(robo_clase22__action__Navigate_Resul
   if (!msg) {
     return false;
   }
-  // elapased_time
+  // elapsed_time
   return true;
 }
 
@@ -267,7 +267,7 @@ robo_clase22__action__Navigate_Result__fini(robo_clase22__action__Navigate_Resul
   if (!msg) {
     return;
   }
-  // elapased_time
+  // elapsed_time
 }
 
 bool
@@ -276,8 +276,8 @@ robo_clase22__action__Navigate_Result__are_equal(const robo_clase22__action__Nav
   if (!lhs || !rhs) {
     return false;
   }
-  // elapased_time
-  if (lhs->elapased_time != rhs->elapased_time) {
+  // elapsed_time
+  if (lhs->elapsed_time != rhs->elapsed_time) {
     return false;
   }
   return true;
@@ -291,8 +291,8 @@ robo_clase22__action__Navigate_Result__copy(
   if (!input || !output) {
     return false;
   }
-  // elapased_time
-  output->elapased_time = input->elapased_time;
+  // elapsed_time
+  output->elapsed_time = input->elapsed_time;
   return true;
 }
 

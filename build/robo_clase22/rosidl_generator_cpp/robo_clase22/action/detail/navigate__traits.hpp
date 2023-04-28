@@ -120,10 +120,10 @@ inline void to_flow_style_yaml(
   std::ostream & out)
 {
   out << "{";
-  // member: elapased_time
+  // member: elapsed_time
   {
-    out << "elapased_time: ";
-    rosidl_generator_traits::value_to_yaml(msg.elapased_time, out);
+    out << "elapsed_time: ";
+    rosidl_generator_traits::value_to_yaml(msg.elapsed_time, out);
   }
   out << "}";
 }  // NOLINT(readability/fn_size)
@@ -132,13 +132,13 @@ inline void to_block_style_yaml(
   const Navigate_Result & msg,
   std::ostream & out, size_t indentation = 0)
 {
-  // member: elapased_time
+  // member: elapsed_time
   {
     if (indentation > 0) {
       out << std::string(indentation, ' ');
     }
-    out << "elapased_time: ";
-    rosidl_generator_traits::value_to_yaml(msg.elapased_time, out);
+    out << "elapsed_time: ";
+    rosidl_generator_traits::value_to_yaml(msg.elapsed_time, out);
     out << "\n";
   }
 }  // NOLINT(readability/fn_size)

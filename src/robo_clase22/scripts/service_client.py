@@ -15,10 +15,10 @@ class OddEvenClient(Node):
         self.req.number = int(num) #tiene que ser del mismo tipo de variable que la entrada del archivo srv
         self.client.wait_for_service()#espera a que el servicio este listo para usar
         self.future = self.client.call_async(self.req) ##variable del tipo "respuesta" de ROS
-        rclpy.spin_until_future_complete(self, self.future)
+        rclpy.spin_until_future_complete(self, self.future)# espera a que la respuesta este lista
 
-        self.result=self.future.result()
-        return self.result
+        self.result=self.future.result()#guarda la respuesta en una variable
+        return self.result#regresa la respuesta
 
 
 def main(arg=None):
@@ -27,8 +27,8 @@ def main(arg=None):
     print("Odd Even Check Service Running...")
     try:
         #pass #hace que solo se ejecute una vez
-        user_input= input("Enter an integer: ")
-        res= client_node.send_request(user_input)
+        user_input= input("Enter an integer: ")#pide un numero al usuario
+        res= client_node.send_request(user_input)# envia el numero al servicio y guarda la respuesta
         print("server returned: "+ res.decision)
     except KeyboardInterrupt:
         print("se apago el nodo del publicador")

@@ -382,8 +382,8 @@ ament_cmake_symlink_install_directory("/home/thiago/workspaces/ros2_py_ws/src/ro
 # install(DIRECTORY "/home/thiago/workspaces/ros2_py_ws/src/robo_clase22/scripts/" "DESTINATION" "local/lib/python3.10/dist-packages/scripts" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
 ament_cmake_symlink_install_directory("/home/thiago/workspaces/ros2_py_ws/src/robo_clase22" DIRECTORY "/home/thiago/workspaces/ros2_py_ws/src/robo_clase22/scripts/" "DESTINATION" "local/lib/python3.10/dist-packages/scripts" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
 
-# install(PROGRAMS "scripts/RPM.py" "scripts/VEL.py" "scripts/service_server.py" "scripts/service_client.py" "DESTINATION" "lib/robo_clase22")
-ament_cmake_symlink_install_programs("/home/thiago/workspaces/ros2_py_ws/src/robo_clase22" PROGRAMS "scripts/RPM.py" "scripts/VEL.py" "scripts/service_server.py" "scripts/service_client.py" "DESTINATION" "lib/robo_clase22")
+# install(PROGRAMS "scripts/RPM.py" "scripts/VEL.py" "scripts/action_server.py" "scripts/action_client.py" "scripts/service_server.py" "scripts/service_client.py" "DESTINATION" "lib/robo_clase22")
+ament_cmake_symlink_install_programs("/home/thiago/workspaces/ros2_py_ws/src/robo_clase22" PROGRAMS "scripts/RPM.py" "scripts/VEL.py" "scripts/action_server.py" "scripts/action_client.py" "scripts/service_server.py" "scripts/service_client.py" "DESTINATION" "lib/robo_clase22")
 
 # install(DIRECTORY "launch" "DESTINATION" "share/robo_clase22/")
 ament_cmake_symlink_install_directory("/home/thiago/workspaces/ros2_py_ws/src/robo_clase22" DIRECTORY "launch" "DESTINATION" "share/robo_clase22/")

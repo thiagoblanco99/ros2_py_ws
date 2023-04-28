@@ -154,13 +154,13 @@ bool robo_clase22__action__navigate__result__convert_from_py(PyObject * _pymsg, 
     assert(strncmp("robo_clase22.action._navigate.Navigate_Result", full_classname_dest, 45) == 0);
   }
   robo_clase22__action__Navigate_Result * ros_message = _ros_message;
-  {  // elapased_time
-    PyObject * field = PyObject_GetAttrString(_pymsg, "elapased_time");
+  {  // elapsed_time
+    PyObject * field = PyObject_GetAttrString(_pymsg, "elapsed_time");
     if (!field) {
       return false;
     }
     assert(PyFloat_Check(field));
-    ros_message->elapased_time = (float)PyFloat_AS_DOUBLE(field);
+    ros_message->elapsed_time = (float)PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
 
@@ -185,11 +185,11 @@ PyObject * robo_clase22__action__navigate__result__convert_to_py(void * raw_ros_
     }
   }
   robo_clase22__action__Navigate_Result * ros_message = (robo_clase22__action__Navigate_Result *)raw_ros_message;
-  {  // elapased_time
+  {  // elapsed_time
     PyObject * field = NULL;
-    field = PyFloat_FromDouble(ros_message->elapased_time);
+    field = PyFloat_FromDouble(ros_message->elapsed_time);
     {
-      int rc = PyObject_SetAttrString(_pymessage, "elapased_time", field);
+      int rc = PyObject_SetAttrString(_pymessage, "elapsed_time", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

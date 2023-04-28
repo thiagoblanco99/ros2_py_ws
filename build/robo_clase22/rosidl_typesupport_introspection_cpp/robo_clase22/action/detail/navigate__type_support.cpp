@@ -158,14 +158,14 @@ void Navigate_Result_fini_function(void * message_memory)
 
 static const ::rosidl_typesupport_introspection_cpp::MessageMember Navigate_Result_message_member_array[1] = {
   {
-    "elapased_time",  // name
+    "elapsed_time",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_FLOAT,  // type
     0,  // upper bound of string
     nullptr,  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(robo_clase22::action::Navigate_Result, elapased_time),  // bytes offset in struct
+    offsetof(robo_clase22::action::Navigate_Result, elapsed_time),  // bytes offset in struct
     nullptr,  // default value
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer

@@ -63,15 +63,15 @@ namespace action
 namespace builder
 {
 
-class Init_Navigate_Result_elapased_time
+class Init_Navigate_Result_elapsed_time
 {
 public:
-  Init_Navigate_Result_elapased_time()
+  Init_Navigate_Result_elapsed_time()
   : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
   {}
-  ::robo_clase22::action::Navigate_Result elapased_time(::robo_clase22::action::Navigate_Result::_elapased_time_type arg)
+  ::robo_clase22::action::Navigate_Result elapsed_time(::robo_clase22::action::Navigate_Result::_elapsed_time_type arg)
   {
-    msg_.elapased_time = std::move(arg);
+    msg_.elapsed_time = std::move(arg);
     return std::move(msg_);
   }
 
@@ -90,7 +90,7 @@ template<>
 inline
 auto build<::robo_clase22::action::Navigate_Result>()
 {
-  return robo_clase22::action::builder::Init_Navigate_Result_elapased_time();
+  return robo_clase22::action::builder::Init_Navigate_Result_elapsed_time();
 }
 
 }  // namespace robo_clase22

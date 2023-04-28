@@ -25,6 +25,8 @@ ament_python_install_package(scripts)
 install(PROGRAMS
   scripts/RPM.py
   scripts/VEL.py
+  scripts/action_server.py
+  scripts/action_client.py
   scripts/service_server.py
   scripts/service_client.py
   DESTINATION lib/${PROJECT_NAME}

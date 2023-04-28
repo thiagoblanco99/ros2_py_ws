@@ -129,14 +129,14 @@ void robo_clase22__action__Navigate_Result__rosidl_typesupport_introspection_c__
 
 static rosidl_typesupport_introspection_c__MessageMember robo_clase22__action__Navigate_Result__rosidl_typesupport_introspection_c__Navigate_Result_message_member_array[1] = {
   {
-    "elapased_time",  // name
+    "elapsed_time",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(robo_clase22__action__Navigate_Result, elapased_time),  // bytes offset in struct
+    offsetof(robo_clase22__action__Navigate_Result, elapsed_time),  // bytes offset in struct
     NULL,  // default value
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer

@@ -262,8 +262,8 @@ cdr_serialize(
   const robo_clase22::action::Navigate_Result & ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
-  // Member: elapased_time
-  cdr << ros_message.elapased_time;
+  // Member: elapsed_time
+  cdr << ros_message.elapsed_time;
   return true;
 }
 
@@ -273,8 +273,8 @@ cdr_deserialize(
   eprosima::fastcdr::Cdr & cdr,
   robo_clase22::action::Navigate_Result & ros_message)
 {
-  // Member: elapased_time
-  cdr >> ros_message.elapased_time;
+  // Member: elapsed_time
+  cdr >> ros_message.elapsed_time;
 
   return true;
 }
@@ -292,9 +292,9 @@ get_serialized_size(
   (void)padding;
   (void)wchar_size;
 
-  // Member: elapased_time
+  // Member: elapsed_time
   {
-    size_t item_size = sizeof(ros_message.elapased_time);
+    size_t item_size = sizeof(ros_message.elapsed_time);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -320,7 +320,7 @@ max_serialized_size_Navigate_Result(
   is_plain = true;
 
 
-  // Member: elapased_time
+  // Member: elapsed_time
   {
     size_t array_size = 1;
 

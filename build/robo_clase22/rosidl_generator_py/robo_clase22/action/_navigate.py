@@ -186,11 +186,11 @@ class Navigate_Result(metaclass=Metaclass_Navigate_Result):
     """Message class 'Navigate_Result'."""
 
     __slots__ = [
-        '_elapased_time',
+        '_elapsed_time',
     ]
 
     _fields_and_field_types = {
-        'elapased_time': 'float',
+        'elapsed_time': 'float',
     }
 
     SLOT_TYPES = (
@@ -201,7 +201,7 @@ class Navigate_Result(metaclass=Metaclass_Navigate_Result):
         assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
             'Invalid arguments passed to constructor: %s' % \
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
-        self.elapased_time = kwargs.get('elapased_time', float())
+        self.elapsed_time = kwargs.get('elapsed_time', float())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -232,7 +232,7 @@ class Navigate_Result(metaclass=Metaclass_Navigate_Result):
     def __eq__(self, other):
         if not isinstance(other, self.__class__):
             return False
-        if self.elapased_time != other.elapased_time:
+        if self.elapsed_time != other.elapsed_time:
             return False
         return True
 
@@ -242,19 +242,19 @@ class Navigate_Result(metaclass=Metaclass_Navigate_Result):
         return copy(cls._fields_and_field_types)
 
     @builtins.property
-    def elapased_time(self):
-        """Message field 'elapased_time'."""
-        return self._elapased_time
+    def elapsed_time(self):
+        """Message field 'elapsed_time'."""
+        return self._elapsed_time
 
-    @elapased_time.setter
-    def elapased_time(self, value):
+    @elapsed_time.setter
+    def elapsed_time(self, value):
         if __debug__:
             assert \
                 isinstance(value, float), \
-                "The 'elapased_time' field must be of type 'float'"
+                "The 'elapsed_time' field must be of type 'float'"
             assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
-                "The 'elapased_time' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
-        self._elapased_time = value
+                "The 'elapsed_time' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
+        self._elapsed_time = value
 
 
 # Import statements for member types
